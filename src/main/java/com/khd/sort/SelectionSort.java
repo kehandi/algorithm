@@ -18,7 +18,7 @@ public class SelectionSort implements Sort {
      * 两个for循环，外层循环控制排序的趟数，内层循环找到当前趟数的最大值，
      * 随后与当前趟数组最后的一位元素交换
      *
-     * @param array
+     * @param array int 数组
      */
     @Override
     public void sort(int[] array) {
