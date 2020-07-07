@@ -29,7 +29,7 @@ public class SelectionSort implements Sort {
         int temp;
 
         // 外层循环控制需要排序的趟数
-        for (int i = 0; i < array.length -1; i++) {
+        for (int i = 0; i < array.length - 1; i++) {
 
             // 新的趟数、将角标重新赋值为0
             pos = 0;
